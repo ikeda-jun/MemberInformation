@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+<!-- maxTotal: Maximum number of database connections in pool. Make sureyou configure your mysqld max_connections large enough to handle all of yourdb connections. Set to -1 for no limit. -->
+
+
+<!-- maxIdle: Maximum number of idle database connections to retain in pool.Set to -1 for no limit. See also the DBCP 2 documentation on this and theminEvictableIdleTimeMillis configuration parameter. -->
+
+
+<!-- maxWaitMillis: Maximum time to wait for a database connection to becomeavailable in ms, in this example 10 seconds. An Exception is thrown if thistimeout is exceeded. Set to -1 to wait indefinitely. -->
+
+
+<!-- username and password: MySQL username and password for database connections -->
+
+
+<!-- driverClassName: Class name for the old mm.mysql JDBC driver is org.gjt.mm.mysql.Driver - we recommend using Connector/J though. Class name for the official MySQLConnector/J driver is com.mysql.jdbc.Driver. -->
+
+
+<!-- url: The JDBC connection url for connecting to your MySQL database. -->
+
+
+<Resource url="jdbc:mysql://localhost:3306/database" driverClassName="com.mysql.cj.jdbc.Driver" password="" username="root" maxWaitMillis="10000" maxIdle="30" maxTotal="100" type="javax.sql.DataSource" auth="Container" name="jdbc/database"/>
+
+</Context>

@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+
+
+.container{
+	
+	margin:0 auto;
+	width:700px;
+	height:1200px;
+	top:200px;
+
+}
+
+h1{
+
+	
+	text-align:center;
+
+}
+
+.form{
+
+	top:300px;
+	margin:0 auto;
+	width :700px;
+	height:700px;
+	
+}
+
+.search-form{
+
+	margin:0 auto;
+	width :700px;
+	height:200px;
+	
+}
+
+.box{
+    width: 100%; /*親要素いっぱい広げる*/
+    padding: 20px 30px; /*ボックスを大きくする*/
+    font-size: 20px;
+    margin:10px 10px;
+    border-radius: 6px; /*ボックス角の丸み*/
+    border: 4px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+
+.select{
+    width: 28%; /*親要素いっぱい広げる*/
+    padding: 15px 55px; /*ボックスを大きくする*/
+    margin:20px 30px 10px 0px;
+    color:black;
+    font-size: 20px;
+    border-radius: 6px; /*ボックス角の丸み*/
+    border: 4px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+
+.click{
+	width: 100%; /*親要素いっぱい広げる*/
+    padding: 20px 30px; /*ボックスを大きくする*/
+    margin:20px 10px;
+    font-size: 25px;
+    border-radius: 6px; /*ボックス角の丸み*/
+    border: 4px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/  
+    cursor:pointer;	
+}
+
+
+.number{
+	
+	width: 60%; /*親要素いっぱい広げる*/
+    padding: 20px 30px; /*ボックスを大きくする*/
+    font-size: 20px;
+    margin:10px 10px;
+    border-radius: 6px; /*ボックス角の丸み*/
+    border: 4px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+	
+}
+
+.button{
+	
+	width: 35%; /*親要素の45％分広げる*/
+    padding: 20px 0px; /*ボックスを大きくする*/
+    margin:20px 50px;
+    font-size: 25px;
+    border-radius: 6px; /*ボックス角の丸み*/
+    border: 4px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/  
+    cursor:pointer;	
+	
+	
+}
+.btn{
+	
+	width: 20%; /*親要素の45％分広げる*/
+    padding: 10px 0px; /*ボックスを大きくする*/
+    margin:10px 10px;
+    font-size: 15px;
+    border-radius: 4px; /*ボックス角の丸み*/
+    border: 2px solid black; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/  
+    cursor:pointer;	
+	
+}
